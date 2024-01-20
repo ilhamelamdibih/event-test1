@@ -54,7 +54,7 @@ services:
     ports:
       - "8089:8089"
     depends_on:
-      - mysql-article
+      - mysql-event
     environment:
       SPRING_DATASOURCE_URL: jdbc:mysql://mysql-event:3306/service-event
       SPRING_DATASOURCE_USERNAME: root
