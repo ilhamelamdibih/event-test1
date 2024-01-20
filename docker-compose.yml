@@ -7,8 +7,9 @@ services:
   mysql-reservation:
     image: mysql:latest
     environment:
+      MYSQL_ROOT_PASSWORD: ""
       MYSQL_ALLOW_EMPTY_PASSWORD: "yes"
-      MYSQL_DATABASE: service-reservation
+      MYSQL_DATABASE: service_reservation
 
     ports:
       - "3306:3306"
@@ -19,8 +20,9 @@ services:
   mysql-event:
     image: mysql:latest
     environment:
+      MYSQL_ROOT_PASSWORD: ""
       MYSQL_ALLOW_EMPTY_PASSWORD: "yes"
-      MYSQL_DATABASE: service-event
+      MYSQL_DATABASE: service_event
 
     ports:
       - "3307:3306"
@@ -36,7 +38,7 @@ services:
     depends_on:
       - mysql-reservation
     environment:
-      SPRING_DATASOURCE_URL: jdbc:mysql://mysql-reservation:3306/service-reservation
+      SPRING_DATASOURCE_URL: jdbc:mysql://mysql-reservation:3306/service_reservation?createDatabaseIfNotExist=true&serverTimezone=UTC
       SPRING_DATASOURCE_USERNAME: root
       SPRING_DATASOURCE_PASSWORD: root
     healthcheck:
@@ -56,7 +58,7 @@ services:
     depends_on:
       - mysql-event
     environment:
-      SPRING_DATASOURCE_URL: jdbc:mysql://mysql-event:3306/service-event
+      SPRING_DATASOURCE_URL: jdbc:mysql://mysql-event:3306/service_event?createDatabaseIfNotExist=true&serverTimezone=UTC
       SPRING_DATASOURCE_USERNAME: root
       SPRING_DATASOURCE_PASSWORD: root
     healthcheck:
