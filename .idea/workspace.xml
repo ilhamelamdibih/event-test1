@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f2f3d7c5-0388-49c1-b9fa-e0a65f379315" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../SpringCloud/client/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringCloud/client/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringCloud/client/src/main/java/com/example/client/controllers/ClientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringCloud/client/src/main/java/com/example/client/controllers/ClientController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringCloud/client/src/main/java/com/example/client/entities/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringCloud/client/src/main/java/com/example/client/entities/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringCloud/client/src/main/java/com/example/client/repositories/ClientRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringCloud/client/src/main/java/com/example/client/repositories/ClientRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringCloud/client/src/main/java/com/example/client/services/ClientService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringCloud/client/src/main/java/com/example/client/services/ClientService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringCloud/client/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringCloud/client/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringCloud/controle micro-service/Client/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringCloud/eurekaServer/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringCloud/eurekaServer/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringCloud/eurekaServer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringCloud/eurekaServer/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringCloud/gateway/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringCloud/gateway/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringCloud/gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringCloud/gateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringCloud/voiture/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringCloud/voiture/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringCloud/voiture/src/main/java/com/example/voiture/controllers/CarController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringCloud/voiture/src/main/java/com/example/voiture/controllers/CarController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringCloud/voiture/src/main/java/com/example/voiture/entities/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringCloud/voiture/src/main/java/com/example/voiture/entities/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringCloud/voiture/src/main/java/com/example/voiture/entities/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringCloud/voiture/src/main/java/com/example/voiture/entities/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringCloud/voiture/src/main/java/com/example/voiture/models/CarResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringCloud/voiture/src/main/java/com/example/voiture/models/CarResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringCloud/voiture/src/main/java/com/example/voiture/repositories/CarRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringCloud/voiture/src/main/java/com/example/voiture/repositories/CarRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringCloud/voiture/src/main/java/com/example/voiture/services/CarService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringCloud/voiture/src/main/java/com/example/voiture/services/CarService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringCloud/voiture/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringCloud/voiture/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../event/docker-compose.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../event/microserice-reservation-spring/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../event/microserice-reservation-spring/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../event/microserice-reservation-spring/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../event/microserice-reservation-spring/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../event/microserice-reservation-spring/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../event/microserice-reservation-spring/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../event/microserice-reservation-spring/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../event/microserice-reservation-spring/src/main/java/ma/emsi/Reservation/ReservationApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../event/microserice-reservation-spring/src/main/java/ma/emsi/Reservation/controllers/ReservationController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../event/microserice-reservation-spring/src/main/java/ma/emsi/Reservation/entities/Event.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../event/microserice-reservation-spring/src/main/java/ma/emsi/Reservation/entities/LigneReservation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../event/microserice-reservation-spring/src/main/java/ma/emsi/Reservation/entities/Reservation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../event/microserice-reservation-spring/src/main/java/ma/emsi/Reservation/entities/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../event/microserice-reservation-spring/src/main/java/ma/emsi/Reservation/models/ReservationResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../event/microserice-reservation-spring/src/main/java/ma/emsi/Reservation/models/ReservationWithEventResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../event/microserice-reservation-spring/src/main/java/ma/emsi/Reservation/repositories/LigneReservationRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../event/microserice-reservation-spring/src/main/java/ma/emsi/Reservation/repositories/ReservationRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../event/microserice-reservation-spring/src/main/java/ma/emsi/Reservation/services/LigneReservationService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../event/microserice-reservation-spring/src/main/java/ma/emsi/Reservation/services/ReservationService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../event/microserice-reservation-spring/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../event/microserice-reservation-spring/src/test/java/ma/emsi/Reservation/ReservationApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../event/microservice-event-spring/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../event/microservice-event-spring/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../event/microservice-event-spring/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../event/microservice-event-spring/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../event/microservice-event-spring/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../event/microservice-event-spring/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../event/microservice-event-spring/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../event/microservice-event-spring/src/main/java/ma/emsi/Event/EventApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../event/microservice-event-spring/src/main/java/ma/emsi/Event/controllers/EventController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../event/microservice-event-spring/src/main/java/ma/emsi/Event/entities/Event.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../event/microservice-event-spring/src/main/java/ma/emsi/Event/entities/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../event/microservice-event-spring/src/main/java/ma/emsi/Event/models/EventResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../event/microservice-event-spring/src/main/java/ma/emsi/Event/repositories/EventRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../event/microservice-event-spring/src/main/java/ma/emsi/Event/services/EventService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../event/microservice-event-spring/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../event/microservice-event-spring/src/test/java/ma/emsi/Event/EventApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2bDeJw2tVf3k873RlE1BkMqk0Wg" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "F:/lachgar-eurika/event-spring-dockercompose-test1"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f2f3d7c5-0388-49c1-b9fa-e0a65f379315" name="Changes" comment="" />
+      <created>1705754008817</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1705754008817</updated>
+    </task>
+    <servers />
+  </component>
+</project>
