@@ -7,7 +7,7 @@ services:
   mysql-reservation:
     image: mysql:latest
     environment:
-      MYSQL_ROOT_PASSWORD: root
+      MYSQL_ALLOW_EMPTY_PASSWORD: "yes"
       MYSQL_DATABASE: service-reservation
 
     ports:
@@ -19,7 +19,7 @@ services:
   mysql-event:
     image: mysql:latest
     environment:
-      MYSQL_ROOT_PASSWORD: root
+      MYSQL_ALLOW_EMPTY_PASSWORD: "yes"
       MYSQL_DATABASE: service-event
 
     ports:
