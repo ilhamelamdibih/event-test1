@@ -7,9 +7,9 @@ services:
   mysql-reservation:
     image: mysql:latest
     environment:
-      MYSQL_ROOT_PASSWORD: ""
+      MYSQL_ROOT_PASSWORD: root
       MYSQL_DATABASE: service-reservation
-      MYSQL_PASSWORD: ""
+      MYSQL_PASSWORD: root
     ports:
       - "3306:3306"
     networks:
@@ -19,9 +19,9 @@ services:
   mysql-event:
     image: mysql:latest
     environment:
-      MYSQL_ROOT_PASSWORD: ""
+      MYSQL_ROOT_PASSWORD: root
       MYSQL_DATABASE: service-event
-      MYSQL_PASSWORD: ""
+      MYSQL_PASSWORD: root
     ports:
       - "3307:3306"
     networks:
@@ -38,9 +38,9 @@ services:
     environment:
       SPRING_DATASOURCE_URL: jdbc:mysql://mysql-reservation:3306/service-reservation
       SPRING_DATASOURCE_USERNAME: root
-      SPRING_DATASOURCE_PASSWORD: ""
+      SPRING_DATASOURCE_PASSWORD: root
     healthcheck:
-      test: "/usr/bin/mysql --user=root --password= --execute \"SHOW DATABASES;\""
+      test: "/usr/bin/mysql --user=root --password=root --execute \"SHOW DATABASES;\""
       interval: 5s
       timeout: 2s
       retries: 100
@@ -58,9 +58,9 @@ services:
     environment:
       SPRING_DATASOURCE_URL: jdbc:mysql://mysql-event:3306/service-event
       SPRING_DATASOURCE_USERNAME: root
-      SPRING_DATASOURCE_PASSWORD: ""
+      SPRING_DATASOURCE_PASSWORD: root
     healthcheck:
-      test: "/usr/bin/mysql --user=root --password= --execute \"SHOW DATABASES;\""
+      test: "/usr/bin/mysql --user=root --password=root --execute \"SHOW DATABASES;\""
       interval: 5s
       timeout: 2s
       retries: 100
@@ -72,7 +72,7 @@ services:
     environment:
       PMA_HOST: mysql-reservation
       PMA_PORT: 3306
-      MYSQL_ROOT_PASSWORD: ""
+      MYSQL_ROOT_PASSWORD: root
     ports:
       - "8082:80"
     networks:
@@ -83,7 +83,7 @@ services:
     environment:
       PMA_HOST: mysql-event
       PMA_PORT: 3306
-      MYSQL_ROOT_PASSWORD: ""
+      MYSQL_ROOT_PASSWORD: root
     ports:
       - "8083:80"
     networks:
